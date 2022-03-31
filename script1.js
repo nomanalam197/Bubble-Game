@@ -22,9 +22,9 @@ function setTimer(){
             timer--;
             document.querySelector("#timer").textContent = timer;
         }
-        // else{
-        //     document.querySelector(".bubble").innerHTML = `<h1>GAME OVER</h1>`;
-        // }
+        else{
+            document.querySelector("#down").innerHTML = `<h1>GAME OVER</h1> <h5>Score: ${score}</h5>`;
+        }
     },1000);  
 }
 var hitd;
