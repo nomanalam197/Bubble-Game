@@ -55,6 +55,13 @@ html,body{
     align-items: center;
     cursor: pointer;
     position: relative;
+    transition: all .2s ease-in-out;
+}
+.bubble:hover{
+    background-color: chocolate;
+    color: whitesmoke;
+    transform: scale(0.9);
+    
 }
 .bubble h1{
     position: absolute;
