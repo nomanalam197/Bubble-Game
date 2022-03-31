@@ -1,7 +1,7 @@
 //  var bubble = document.querySelector(".bubble")
-var clutter = " ";
 function getNewBubble(){
  for(var i = 0;i<=111;i++){
+    var clutter = " ";
     var rn = Math.floor(Math.random()*20);
      clutter += `<div class="bubble">${rn}</div>`
  }
