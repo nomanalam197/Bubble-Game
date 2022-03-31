@@ -1,7 +1,6 @@
-//  var bubble = document.querySelector(".bubble")
 function getNewBubble(){
- for(var i = 0;i<=111;i++){
     var clutter = " ";
+ for(var i = 0;i<=111;i++){
     var rn = Math.floor(Math.random()*20);
      clutter += `<div class="bubble">${rn}</div>`
  }
@@ -40,8 +39,8 @@ function mainEngine(){
             scoreSetter(score+=10);
             getNewBubble();
             getNewHit();
-            console.log("S");
+
         }
     })
 }
-mainEngine();
+mainEngine();   
