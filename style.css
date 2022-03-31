@@ -79,3 +79,22 @@ html,body{
     font-size: 14px;
     font-weight: 600;
 }
+#down h1{
+    font-family: Gilroy;
+    font-size: 40px;
+    color: slategrey;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+}
+#down h5{
+    font-family: Gilroy;
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgba(112, 144, 132, 0.856);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
