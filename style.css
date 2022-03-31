@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat";
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#board{
+    width: 80%;
+    height: 90%;
+    background-color: violet;
+
+}
+#top{
+    height: 10%;
+    width: 100%;
+    background-color: rgba(218, 165, 32, 0.801);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: darkolivegreen;
+    font-size: 10px;
+}
+#down{
+    height: 90%;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-wrap:wrap ;
+
+}
+.bubble{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgba(243, 146, 19, 0.322);
+    margin: 3px;
+    color: slategrey;
+    font-weight: 800;
+    font-size: 19px;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.bubble h1{
+    position: absolute;
+    top: 50%;
+    left: 150%;
+    /* transform: translate(-50%,); */
+    color: red;
+
+
+}
+.same{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.box{
+    padding: 12px 6px;
+    margin-left: 12px;
+    background-color: white;
+    border: 3px solid slategrey;
+    font-size: 14px;
+    font-weight: 600;
+}
