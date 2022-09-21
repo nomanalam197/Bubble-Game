@@ -38,7 +38,7 @@ html,body{
     background-color: bisque;
     display: flex;
     flex-wrap:wrap ;
-
+    overflow: hidden;
 }
 .bubble{
     height: 70px;
